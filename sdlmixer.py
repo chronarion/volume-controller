@@ -393,7 +393,7 @@ class RazerKnobListener:
                             await self.callback('volume_up')
                         elif key == 'KEY_VOLUMEDOWN':
                             await self.callback('volume_down')
-                        elif key == 'KEY_MUTE':
+                        elif key == 'KEY_MUTE' or 'KEY_MUTE" in key:
                             await self.callback('mute')
                         elif key == 'KEY_PLAYPAUSE':
                             await self.callback('play_pause')
