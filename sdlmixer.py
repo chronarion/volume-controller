@@ -5,7 +5,7 @@ yamaha_razer_sdl.py
 Yamaha DM3 RCP client + Razer Wireless Control Pod integration with SDL (pygame) UI.
 
 Usage (framebuffer):
-  sudo SDL_VIDEODRIVER=fbcon SDL_FBDEV=/dev/fb0 python3 yamaha_razer_sdl.py
+  sudo SDL_VIDEODRIVER=KMSDRM SDL_FBDEV=/dev/fb0 python3 sdlmixer.py
 
 Dependencies:
   pip3 install evdev pygame
